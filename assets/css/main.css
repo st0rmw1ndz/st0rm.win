@@ -1,0 +1,92 @@
+/* Basic formatting */
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background-image: url('/assets/img/7376289104_74904051c6_o.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-color: #111;
+    color: #fff;
+	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+    line-height: 1em;
+    font-family: 'Rubik';
+}
+
+a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    color: #ccc;
+    opacity: 25%;
+}
+
+/* Utility classes */
+
+.center {
+    text-align: center;
+}
+
+.box-wrapper {
+    height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.box {
+    background: rgba(3, 3, 3, 0.35);
+    border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, .35);
+}
+
+.top {
+    font-size: 2em;
+    padding: 5px;
+}
+
+.top p {
+    opacity: 65%;
+}
+
+/* @media rules */
+
+@media only screen and (max-width: 400px) {
+    .top {
+        font-size: 1.5em;
+        padding: 5px;
+    }
+
+    .box-wrapper {
+        background: rgba(3, 3, 3, 0.35);
+        overflow: hidden;
+    }
+
+    .box {
+        line-height: 1.2em;
+        width: 100%;
+        margin: 0;
+        background: none;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: none;
+    }
+}
+
+/* Importing fonts */
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Regular.ttf');
+}
