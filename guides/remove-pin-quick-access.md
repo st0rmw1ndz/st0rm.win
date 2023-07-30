@@ -8,7 +8,7 @@
     2. `cd C:\Windows\SystemResources`
     3. `takeown /f "%cd%" /r /d y`
     4. `icacls "%cd%" /grant Everyone:(OI)(CI)F /t /q`
-3. Download a [transparent icon](https://raw.githubusercontent.com/st0rmw1ndz/st0rmw1ndz.github.io/guides/assets/blank.ico)
+3. Download a [transparent icon](https://raw.githubusercontent.com/st0rmw1ndz/st0rmw1ndz.github.io/main/guides/assets/blank.ico)
 4. Go into Resource Hacker and open `C:\Windows\SystemResources\imageres.dll.mun`
 5. Click on **Icon Group**
 6. Find **5100:1033**
