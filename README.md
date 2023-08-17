@@ -1,3 +1,3 @@
-# st0rmw1ndz.github.io
+# st0rm.win
 
 Personal website
