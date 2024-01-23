@@ -60,6 +60,10 @@ hr {
     opacity: 65%;
 }
 
+.hidden {
+    display: none;
+}
+
 /* @media rules */
 
 @media only screen and (max-width: 400px) {
